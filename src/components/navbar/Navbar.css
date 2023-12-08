@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(93, 122, 144);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    
+}
+
+.links{
+    list-style: none;
+    color: rgb(16, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all ease 1s;
+
+}
+
+.links:hover{
+    color: rgb(159, 26, 133);
+    background-color: azure;
+}
